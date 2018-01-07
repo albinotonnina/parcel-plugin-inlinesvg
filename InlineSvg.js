@@ -17,7 +17,7 @@ class InlineSvgAsset extends JSAsset {
   parse(code) {
 
     const svgo = new svg({
-      plugins: [{ removeDoctype: true }, { removeComments: true }],
+      plugins: [{ removeDoctype: true }, { removeComments: true }, {removeXMLNS: true}],
     });
 
     return svgo.optimize(code)

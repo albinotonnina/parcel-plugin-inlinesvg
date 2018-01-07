@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --no-cache",
-    "build": "parcel build index.html --no-minify --no-cache"
+    "build": "parcel build index.html --no-minify --no-cache --public-url='./'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "parcel-bundler": "^1.0.3",
+    "babel-preset-env": "^1.6.1",
+    "parcel-bundler": "^1.4.1",
     "parcel-plugin-inlinesvg": "file:.."
   }
 }
