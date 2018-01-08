@@ -1288,10 +1288,6 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-dotenv@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
-
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -2492,49 +2488,9 @@ parcel-bundler@^1.4.1:
     worker-farm "^1.4.1"
     ws "^3.3.3"
 
-"parcel-bundler@git://github.com/parcel-bundler/parcel.git":
-  version "1.4.1"
-  resolved "git://github.com/parcel-bundler/parcel.git#c858843bb0e72c6ad46a2349b36843e00b86ea76"
-  dependencies:
-    babel-core "^6.25.0"
-    babel-generator "^6.25.0"
-    babel-plugin-transform-es2015-modules-commonjs "^6.26.0"
-    babylon "^6.17.4"
-    babylon-walk "^1.0.2"
-    browser-resolve "^1.11.2"
-    chalk "^2.1.0"
-    chokidar "^1.7.0"
-    commander "^2.11.0"
-    cross-spawn "^5.1.0"
-    cssnano "^3.10.0"
-    dotenv "^4.0.0"
-    get-port "^3.2.0"
-    glob "^7.1.2"
-    htmlnano "^0.1.6"
-    is-url "^1.2.2"
-    js-yaml "^3.10.0"
-    json5 "^0.5.1"
-    micromatch "^3.0.4"
-    mkdirp "^0.5.1"
-    node-forge "^0.7.1"
-    node-libs-browser "^2.0.0"
-    opn "^5.1.0"
-    physical-cpu-count "^2.0.0"
-    postcss "^6.0.10"
-    postcss-value-parser "^3.3.0"
-    posthtml "^0.10.1"
-    resolve "^1.4.0"
-    sanitize-filename "^1.6.1"
-    serve-static "^1.12.4"
-    uglify-es "^3.2.1"
-    v8-compile-cache "^1.1.0"
-    worker-farm "^1.4.1"
-    ws "^3.3.3"
-
 "parcel-plugin-inlinesvg@file:..":
-  version "0.0.4"
+  version "0.0.5"
   dependencies:
-    parcel-bundler "git://github.com/parcel-bundler/parcel.git"
     svgo "^1.0.3"
 
 parse-asn1@^5.0.0:

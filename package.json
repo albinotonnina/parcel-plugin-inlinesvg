@@ -1,8 +1,8 @@
 {
   "name": "parcel-plugin-inlinesvg",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "Parcel plugin to support inline SVG",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "example": "cd example && npm start"
   },
@@ -15,10 +15,12 @@
     "type": "git",
     "url": "git://github.com/albinotonnina/parcel-plugin-inlinesvg.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Albino Tonnina",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.4.1"
+  },
   "dependencies": {
-    "parcel-bundler": "git://github.com/parcel-bundler/parcel.git",
     "svgo": "^1.0.3"
   }
 }

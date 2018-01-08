@@ -4,16 +4,19 @@ import safariSvg from './svg/safari.svg'
 import edgeSvg from './svg/edge.svg'
 import operaSvg from './svg/opera.svg'
 import explorerSvg from './svg/explorer.svg'
+import dummySvg from './svg/dummy.svg'
 
 function initComponent() {
   // const parser = new DOMParser();
   // const svgElement = parser.parseFromString(chromeSvg, "image/svg+xml");
-  const chromeElement = document.createElement("div");
-  const firefoxElement = document.createElement("div");
-  const safariElement = document.createElement("div");
-  const edgeElement = document.createElement("div");
-  const operaElement = document.createElement("div");
-  const explorerElement = document.createElement("div");
+
+  const chromeElement = document.createElement("span");
+  const firefoxElement = document.createElement("span");
+  const safariElement = document.createElement("span");
+  const edgeElement = document.createElement("span");
+  const operaElement = document.createElement("span");
+  const explorerElement = document.createElement("span");
+  const dummyEl = document.createElement("span");
 
   chromeElement.innerHTML = chromeSvg;
   firefoxElement.innerHTML = firefoxSvg;
@@ -21,13 +24,15 @@ function initComponent() {
   edgeElement.innerHTML = edgeSvg;
   operaElement.innerHTML = operaSvg;
   explorerElement.innerHTML = explorerSvg;
-
+  dummyEl.innerHTML = dummySvg;
+  
   document.body.appendChild(chromeElement);
   document.body.appendChild(firefoxElement);
   document.body.appendChild(safariElement);
   document.body.appendChild(edgeElement);
   document.body.appendChild(operaElement);
   document.body.appendChild(explorerElement);
+   document.body.appendChild(dummyEl);
 }
 
 document.addEventListener("DOMContentLoaded", function() {
