@@ -2489,7 +2489,7 @@ parcel-bundler@^1.4.1:
     ws "^3.3.3"
 
 "parcel-plugin-inlinesvg@file:..":
-  version "0.0.5"
+  version "0.0.7"
   dependencies:
     svgo "^1.0.3"
 

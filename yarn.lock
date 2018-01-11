@@ -949,6 +949,10 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
+dotenv@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-4.0.0.tgz#864ef1379aced55ce6f95debecdce179f7a0cd1d"
+
 ecc-jsbn@~0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz#0fc73a9ed5f0d53c38193398523ef7e543777505"
@@ -2097,9 +2101,9 @@ pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
 
-parcel-bundler@^1.4.1:
+"parcel-bundler@https://github.com/parcel-bundler/parcel.git":
   version "1.4.1"
-  resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.4.1.tgz#9f86d9d113d5fdf130dd414508c7a75293be0c61"
+  resolved "https://github.com/parcel-bundler/parcel.git#9143f4b1ef601aeaa11f4d2cb2d6094285378807"
   dependencies:
     babel-core "^6.25.0"
     babel-generator "^6.25.0"
@@ -2112,6 +2116,7 @@ parcel-bundler@^1.4.1:
     commander "^2.11.0"
     cross-spawn "^5.1.0"
     cssnano "^3.10.0"
+    dotenv "^4.0.0"
     get-port "^3.2.0"
     glob "^7.1.2"
     htmlnano "^0.1.6"
