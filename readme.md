@@ -1,4 +1,6 @@
 # parcel-plugin-inlinesvg
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/albinotonnina/parcel-plugin-inlinesvg.svg)](https://greenkeeper.io/)
 A parcel plugin that enables inline svg support
 
 
