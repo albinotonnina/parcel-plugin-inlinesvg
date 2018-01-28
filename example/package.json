@@ -1,11 +1,11 @@
 {
-  "name": "demo-parcel-plugin-inlinesvg",
+  "name": "demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --no-cache",
-    "build": "parcel build index.html --no-minify --no-cache --public-url='./'"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url='./'"
   },
   "keywords": [],
   "author": "",
