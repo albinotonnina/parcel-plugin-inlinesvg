@@ -19,7 +19,8 @@
   "author": "Albino Tonnina",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^22.1.4",
+    "jest": "^22.4.3",
+    "parcel-assert-bundle-tree": "^1.0.0",
     "parcel-bundler": "^1.7.0"
   },
   "dependencies": {
