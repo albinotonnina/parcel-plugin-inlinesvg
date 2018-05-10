@@ -21,7 +21,7 @@
   "devDependencies": {
     "jest": "^22.4.3",
     "parcel-assert-bundle-tree": "^1.0.0",
-    "parcel-bundler": "^1.7.0"
+    "parcel-bundler": "^1.8.1"
   },
   "dependencies": {
     "svgo": "^1.0.3"
