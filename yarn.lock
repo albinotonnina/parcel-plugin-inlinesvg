@@ -3610,7 +3610,7 @@ parcel-assert-bundle-tree@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/parcel-assert-bundle-tree/-/parcel-assert-bundle-tree-1.0.0.tgz#d10a1bff6fb690cdbda5201cae216366c23c837e"
 
-parcel-bundler@^1.7.0:
+parcel-bundler@^1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/parcel-bundler/-/parcel-bundler-1.8.1.tgz#ac62d0690786f51d7f309694bab6856f685a6986"
   dependencies:
