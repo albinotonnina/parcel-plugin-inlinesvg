@@ -4,15 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url='./'"
+    "start": "rimraf dist && node debug.js",
+    "start-parcel": "rimraf dist && parcel index.html --no-cache",
+    "build": "rimraf dist && parcel build index.html --public-url='./'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-preset-env": "^1.6.1",
-    "parcel-bundler": "^1.5.1",
-    "parcel-plugin-inlinesvg": "file:.."
+    "parcel-bundler": "^1.9.2",
+    "parcel-plugin-inlinesvg": "^0.0.14"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
   }
 }
