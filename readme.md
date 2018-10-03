@@ -9,6 +9,7 @@ A parcel plugin that enables inline svg support
 <p align="center">
   <img src="https://img.ziggi.org/FkLzuHwv.png" />
 </p>
+
 [demo](https://parcel-inlinsvg.now.sh/)
 
 ## Installation
